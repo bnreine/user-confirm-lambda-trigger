@@ -1,0 +1,24 @@
+{
+  "name": "user-confirm-lambda-trigger",
+  "version": "0.1.0",
+  "bin": {
+    "user-confirm-lambda-trigger": "bin/app.js"
+  },
+  "scripts": {
+    "build": "echo \"No build step required for JavaScript\"",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --all",
+    "synth": "cdk synth",
+    "diff": "cdk diff"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.178.2",
+    "esbuild": "^0.25.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.758.0",
+    "@aws-sdk/lib-dynamodb": "^3.758.0",
+    "aws-cdk-lib": "2.178.2",
+    "constructs": "^10.4.2"
+  }
+}
